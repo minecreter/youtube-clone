@@ -31,3 +31,5 @@ def watch(name=None):
         json.dump(db, f)
 
     return render_template('watch.html', video=video)
+
+app.run(host="0.0.0.0",port="5000")
